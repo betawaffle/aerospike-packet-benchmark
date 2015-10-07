@@ -1,7 +1,7 @@
 1x baremetal_3 server; taskset -c 1-32:2; eth affinity changed
 3x baremetal_1 client; -z 56 -w I -o S:50 -b 3 -l 20 -k 20000000 -S $(( $i * 20000000 ))
 
-Note: Still using the limping ~140k tps client. The other clients were clearly limited by the server at this point.
+Notes: Still using the limping ~140k tps client. The other clients were clearly limited by the server at this point.
 
 writes_master
 Oct 07 2015 17:21:38

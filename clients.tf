@@ -1,5 +1,5 @@
 variable "client_count" {
-  default = "4"
+  default = "5"
 }
 
 resource "packet_device" "as_client" {

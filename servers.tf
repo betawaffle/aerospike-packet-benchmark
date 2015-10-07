@@ -1,5 +1,5 @@
 variable "server_count" {
-  default = "1"
+  default = "2"
 }
 
 resource "packet_device" "as_server" {
@@ -23,7 +23,6 @@ resource "template_file" "as_server_init" {
   vars {
     config = "${file("aerospike.conf")}"
   }
-  count = "${var.server_count}"
 }
 
 output "server_prv_ips" {

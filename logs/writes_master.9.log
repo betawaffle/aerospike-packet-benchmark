@@ -1,7 +1,7 @@
 1x baremetal_3 server; taskset -c 1-32:2; eth affinity changed
 2x baremetal_1 client; -z 56 -w I -o S:50 -b 3 -l 20 -k 20000000 -S $(( $i * 20000000 ))
 
-Note: These are the two fast clients from the previous test.
+Notes: These are the two fast clients from the previous test.
 
 writes_master
 Oct 07 2015 17:55:36
